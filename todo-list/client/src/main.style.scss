@@ -1,0 +1,39 @@
+$pantone: #f1f0ed;
+$blue: #0f5bea;
+$dark-green: #7c8c8a;
+$light: #f0f1e5;
+
+$green: #c0c8c7;
+
+$family-sans-serif: "Arial", sans-serif;
+$primary: $green;
+$link: $blue;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+html {
+  background: linear-gradient(to right top, $pantone, $green);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.modal-box {
+  min-height: 250px;
+  width: 100%;
+  max-width: 570px;
+  background: #e8f6ef;
+  border-radius: 5px;
+  padding: 35px;
+}
